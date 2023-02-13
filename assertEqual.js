@@ -7,6 +7,4 @@ const assertEqual = function(actual, expected) {
 
 };
 
-// TEST CODE
-assertEqual("Bootcamp", "Bootcamp");
-assertEqual(1, "one");
+module.exports = assertEqual;
